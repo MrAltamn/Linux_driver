@@ -67,7 +67,7 @@ struct device_driver
 	struct bus_type	*bus;    //总线类型
 	struct module		*owner;	//模块THIS_MODULE 
 	const struct of_device_id	*of_match_table;//用于设备树匹配 
-                of_match_ptr(某struct of_device_id对象地址) 重要
+                //of_match_ptr(某struct of_device_id对象地址) 重要
     //......
 };
 ```
